@@ -1,0 +1,39 @@
+#main-container {
+    display: flex;
+   }
+#side-content {
+    width: 30%;
+    border-radius: 6px;
+    border: 1px solid black;
+    }
+#photo-container {
+    display: grid;
+    width: 70%;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 3px ;
+    border-radius: 6px;
+    border: 1px solid black;
+
+}
+#photo-container > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+   
+}
+.photo {
+    grid-column: span 3;
+}
+
+header {background-color:rgb(48, 70, 110);
+    text-align: center;
+    padding:7px;
+        
+}
+ nav {
+    text-align: center;
+    padding: 3px;
+    background-color: rgb(85, 112, 163);
+  }
+   
+    
