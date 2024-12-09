@@ -1,0 +1,51 @@
+#main-container {
+    display: flex;
+}
+#side-content {
+    width: 30%;
+    border-radius: 6px;
+    border: 1px solid black;
+    float: right;
+
+   
+    
+}
+
+
+#photo-container {
+    display: grid;
+    width: 40%;
+    grid-template-columns:repeat(auto-fit, minmax(150px, 1fr)); 
+    gap: 3px;
+    border-radius: 6px;
+    border: 1px solid pink;
+    border:2 bordercolor="#734935"
+    
+
+}
+
+.photo {
+    height: 70%;
+    width: 70%;
+    grid-column: span 2;
+    border: 1px solid black;
+}
+
+header {background-color:rgb(48, 70, 110);
+    text-align: center;
+    padding:7px;
+    gap: 12px;
+ }
+
+ nav {
+    text-align:center ;
+    padding: 15px;
+    background-color: rgb(85, 112, 163);
+ }
+ footer {
+    background-color: rgb(48, 70, 110);
+    text-align: center;
+    padding: 7px;
+
+ }
+ 
