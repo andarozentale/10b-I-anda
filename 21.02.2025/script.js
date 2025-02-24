@@ -13,6 +13,7 @@ if( a === b )
 
 
 
+
 let diena = parseInt(prompt("ievadi dienas numuru"));
 
 switch( diena )
@@ -45,3 +46,100 @@ switch( diena )
         console.log("svētdiena");
     break;
 }
+
+*/
+//2.uzdevums
+
+let diena = parseInt(prompt("ievadi dienas numuru"));
+
+switch( diena )
+{
+    case 1:
+        console.log("darba diena");
+    break;
+
+    case 2:
+        console.log("darba diena");
+    break;
+
+    case 3:
+        console.log("darba diena");
+    break; 
+
+    case 4:
+        console.log("darba diena");
+    break;
+
+    case 5:
+        console.log("darba diena");
+    break;
+
+    case 6:
+        console.log("brīvdiena");
+    break;
+
+    case 7:
+        console.log("brīvdiena");
+    break;
+
+}
+*/
+
+
+*/
+//3.uzdevums
+
+let diena = parseInt(prompt("ievadi dienas numuru"));
+
+switch( diena )
+{
+    case 1:
+        console.log("decembris");
+    break;
+
+    case 2:
+        console.log("janvāris");
+    break;
+
+    case 3:
+        console.log("februāris");
+    break; 
+
+    case 4:
+        console.log("marts");
+    break;
+
+    case 5:
+        console.log("aprīlis");
+    break;
+
+    case 6:
+        console.log("maijs");
+    break;
+
+    case 7:
+        console.log("jūnijs");
+    break;
+
+    case 8:
+        console.log("jūlijs");
+    break;
+
+    case 9:
+        console.log("augusts");
+    break;
+
+    case 10:
+        console.log("septembris");
+    break; 
+
+    case 11:
+        console.log("oktobris");
+    break;
+
+    case 12:
+        console.log("novembris");
+    break;
+}
+*/
+
