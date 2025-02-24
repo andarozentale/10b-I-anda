@@ -47,7 +47,7 @@ switch( diena )
     break;
 }
 
-*/
+//
 //2.uzdevums
 
 let diena = parseInt(prompt("ievadi dienas numuru"));
@@ -83,10 +83,10 @@ switch( diena )
     break;
 
 }
-*/
+//
 
 
-*/
+//
 //3.uzdevums
 
 let diena = parseInt(prompt("ievadi dienas numuru"));
@@ -141,5 +141,5 @@ switch( diena )
         console.log("novembris");
     break;
 }
-*/
+//
 
